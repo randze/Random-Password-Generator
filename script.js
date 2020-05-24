@@ -12,13 +12,13 @@ var rndLetters = smallAlpha;
 
 // Write password to the #password input
 
-// Randomize array using Durstenfeld shuffle algorithm from Stackoverflow
+// Randomize array using shuffle from w3 schools The Fisher Yates Method
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
+      var k = array[i];
       array[i] = array[j];
-      array[j] = temp;
+      array[j] = k;
       return array
   }
 }
