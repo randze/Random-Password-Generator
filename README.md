@@ -1,9 +1,9 @@
 # Random-Password-Generator
-A simple random password generator
+## A simple random password generator
 - Prompts user for Uppercase Letters, Numbers, and/or Special Characters
 - Asks for Length of Password checks it's between 8~128
 
-Pseudocode
+## Pseudocode
 ```
 - Store potential Letters/Numbers/Characters
 - Ask for critera
@@ -19,14 +19,14 @@ Pseudocode
 
 ```
 
-Problems Encountered
+## Problems Encountered
 ```
 - Finding a way to shuffle my array
 - Output as an array came with commas at first
 
 ```
 
-Improvements to be done
+## Improvements to be done
 ```
 - refactoring code
 - better value checks
