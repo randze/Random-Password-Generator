@@ -8,8 +8,6 @@ var randomNum = "0123456789";
 var randomChar = "!@#$%?&";
 var rndLetters = smallAlpha;
 
-
-
 // Write password to the #password input
 
 // Randomize array using shuffle from w3 schools The Fisher Yates Method
@@ -87,7 +85,6 @@ function writePassword() {
     // console.log(`Shuffled Complete ${generatedPass}`)
     
     document.querySelector('#password').innerHTML = generatedPass
-
   }
 
   else {
