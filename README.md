@@ -1,5 +1,5 @@
 # Random-Password-Generator
-## A simple random password generator
+A simple random password generator
 - Prompts user for Uppercase Letters, Numbers, and/or Special Characters
 - Asks for Length of Password checks it's between 8~128
 
