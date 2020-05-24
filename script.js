@@ -28,12 +28,12 @@ function writePassword() {
   console.log('Password generator started...')
   // PROMPTS
   // Check to Add random Uppercase letters
-  var checkUpper = confirm("Do you want to include Uppercase letters?");
+  var checkUpper = confirm("Do you want to include Uppercase Letters?");
     console.log(checkUpper)
     if (checkUpper){ rndLetters += bigAlpha }
 
   // Check to Add random numbers 
-  var checkNum = confirm("Do you want to include numbers?");
+  var checkNum = confirm("Do you want to include Numbers?");
     console.log(checkNum)
     if (checkNum){ rndLetters += randomNum }
 
