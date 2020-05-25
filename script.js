@@ -48,6 +48,12 @@ function writePassword() {
   checkPassLength = Number(checkPassLength);
   console.log(checkPassLength)
 
+  while (checkPassLength < 8 || checkPassLength > 128) {
+    checkPassLength = prompt("Enter length of password to be generated [ 8-128 ]")
+    checkPassLength = Number(checkPassLength);
+    console.log(checkPassLength)
+  }
+  
   if (checkPassLength >=8 && checkPassLength <= 128) {
     // Add 1 of each wanted element
     if (checkUpper) { generatedPass.push( bigAlpha[Math.floor( Math.random() * bigAlpha.length ) ])
@@ -87,9 +93,7 @@ function writePassword() {
     document.querySelector('#password').innerHTML = generatedPass
   }
 
-  else {
-    checkPassLength = prompt("Enter length of password to be generated [ 8-128 ]")
-  }
+  
 }
 
 // Add event listener to generate button
